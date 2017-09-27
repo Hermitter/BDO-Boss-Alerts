@@ -24,7 +24,7 @@ bot.on('ready', () => {
 		.setColor(0x00AE86)
 		.setTimestamp()
   		.setImage(boss.img);//boss image
-    channel.send({embed});//alert discord
+	channel.send({embed});//alert discord
   });
   
 });
