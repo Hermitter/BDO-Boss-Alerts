@@ -4,7 +4,7 @@ var request  = require("request");
 var emitter = require('./emitter')
 
 ///////////////////////////////////////
-//Obtaining Boss Spawning Data Loop
+//Obtaining Boss Spawning Data (Loop)
 //////////////////////////////////////
 //Boss Data Holders: Ordered by how they appear on http://urzasarchives.com/bdo/wbtbdo/wbtna/
 var bossData = {
@@ -27,7 +27,7 @@ function retrieveBossData(callback){
     //Obtain Boss Spawn Data
     request(url, function (error, response, body) {
             var $ = cheerio.load(body);
-            //Attempt Obtain All And Assign Boss Spawn Data (really messy)
+            //Attempt Obtain All And Assign Boss Spawn Data (not optimized)
             try{
                 //////////////////////
                 //kutum
