@@ -24,7 +24,6 @@ var nextSpawn = "";
 function retrieveBossData(callback){
             //Url for boss spawn data
 			var url = "http://urzasarchives.com/bdo/wbtbdo/wbtna/";
-            //var url = "https://js-fiddle-hermitter.c9users.io/dummyWebHost/index.html";
             //Obtain Boss Spawn Data
 			request(url, function (error, response, body) {
 			    	var $ = cheerio.load(body);
