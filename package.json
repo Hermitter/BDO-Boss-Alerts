@@ -1,7 +1,7 @@
 {
-  "name": "my_discord_app",
+  "name": "bdo-boss-alert",
   "version": "1.0.0",
-  "description": "my dis app",
+  "description": "Boss Alerter Discord Bot for BDO",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
