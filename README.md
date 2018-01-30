@@ -1,4 +1,5 @@
 # BDO-Boss-Alerts
+Insert your bot-Id and desired text-channel-id in the <a href="https://github.com/Hermitter/BDO-Boss-Alerts/blob/master/app.js" >app.js file<a/>
 ```
 npm install //for all dependencies
 node app.js //to run
