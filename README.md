@@ -1,5 +1,5 @@
 # BDO-Boss-Alerts
-Insert your bot-id and desired text-channel-id in the <a href="https://github.com/Hermitter/BDO-Boss-Alerts/blob/master/app.js" >app.js file<a/>
+Insert your bot-id and desired <a href="https://github.com/Chikachi/DiscordIntegration/wiki/How-to-get-a-token-and-channel-ID-for-Discord#get-the-channel-id-of-the-discord-text-channel">text-channel-id</a> in the <a href="https://github.com/Hermitter/BDO-Boss-Alerts/blob/master/app.js" >app.js file<a/>
 ```
 npm install //for all dependencies
 node app.js //to run
