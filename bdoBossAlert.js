@@ -106,8 +106,6 @@ function retrieveBossData(callback){
             }
             catch(htmlError){
                 console.log(htmlError+"\nCould not find HTML element!"+"\n Retrying Now!... ");
-                //try again in 3 seconds
-                //setTimeout(retrieveBossData, 3000);
             }
     });
 };
@@ -115,7 +113,7 @@ function retrieveBossData(callback){
 ///////////////////////////////////////
 //Action Zone
 //////////////////////////////////////
-//Wait 1 min before running again
+//Wait 10 seconds before running again
 function endlessLoop(){
     //send alert to event object
     retrieveBossData(function(data){
