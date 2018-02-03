@@ -18,6 +18,7 @@ bot.on('ready', () => {
   channel.send("Looking Out For BDO Boss Spawns...");
 
   //A BDO Boss Spawned
+  var image = "";
   emitter.bossEvents.on("bossSpawn", function(boss){
   	//Message Sent To Discord
 	var embed  = new Discord.RichEmbed()
@@ -25,7 +26,7 @@ bot.on('ready', () => {
 		.setTitle(boss.alert)
 		.setColor(0x00AE86)
 		.setTimestamp()
-  		.setImage(boss.img);//boss image
+	if(config.large_boss_image) embed.setImage(boss.img);//use large boss image
 	channel.send({embed});//alert discord
   });
   
