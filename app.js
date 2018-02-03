@@ -18,7 +18,6 @@ bot.on('ready', () => {
   channel.send("Looking Out For BDO Boss Spawns...");
 
   //A BDO Boss Spawned
-  var image = "";
   emitter.bossEvents.on("bossSpawn", function(boss){
   	//Message Sent To Discord
 	var embed  = new Discord.RichEmbed()
