@@ -20,8 +20,8 @@ var bossData = {
 
 //Scrape website for boss data
 function retrieveBossData(callback){
-    //Url for boss spawn data
-    var url = "http://urzasarchives.com/bdo/wbtbdo/wbtna/";
+    //Url for boss spawn data (Set to NA server by default)
+    var url = "http://urzasarchives.com/bdo/wbtbdo/wbtna/";//other BDO server URLs are here: http://urzasarchives.com/bdo/wbtbdo/
     //Obtain Boss Spawn Data
     request(url, function (error, response, body) {
         var $ = cheerio.load(body);//html body
