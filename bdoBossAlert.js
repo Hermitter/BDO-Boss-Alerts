@@ -17,6 +17,9 @@ var bossData = {
     redNose: {alert: "Red Nose Spawned!", img: "http://urzasarchives.com/wp-content/uploads/wbt_red.png"},
     nouver: {alert: "Nouver Spawned!", img: "http://urzasarchives.com/wp-content/uploads/wbt_nouver.png"}
 }
+//Will be added if URZAS ARCHIVES ever updates...
+//muraka: {alert: "Muraka Spawned!", img: "https://i.imgur.com/SrPM0fF.png"},
+//quint: {alert: "Quint Spawned!", img: "https://i.imgur.com/nsp8tfc.png"}
 
 //Scrape website for boss data
 function retrieveBossData(callback){
