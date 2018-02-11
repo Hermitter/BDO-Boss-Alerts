@@ -56,7 +56,7 @@ function readBossData(boss, tableNumber, table){
     if(!/\d/.test(lastSpawn))
         return;//exit
     //check if boss spawned
-    if(boss.lastSpawn != null && lastSpawn != null && lastSpawn !== boss.lastSpawn)//check if spawned
+    if(boss.lastSpawn != null && lastSpawn != null && lastSpawn !== boss.lastSpawn)
         emitter.bossEvents.sendEvent("bossSpawn", boss);//alert if spawned
     boss.lastSpawn = lastSpawn;//update last boss spawn
 }
