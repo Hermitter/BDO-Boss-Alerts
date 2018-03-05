@@ -19,7 +19,7 @@ This repo contains all the code you need to make your Discord bot into a BDO Bos
 
 <br/>
 
-<b>Insert your bot-id and desired <a href="https://github.com/Chikachi/DiscordIntegration/wiki/How-to-get-a-token-and-channel-ID-for-Discord#get-the-channel-id-of-the-discord-text-channel">text-channel-id</a> in the <a href="https://github.com/Hermitter/BDO-Boss-Alerts/blob/master/config.json" >config.json file<a/></b>
+<b>Insert your App Bot User Token and desired <a href="https://github.com/Chikachi/DiscordIntegration/wiki/How-to-get-a-token-and-channel-ID-for-Discord#get-the-channel-id-of-the-discord-text-channel">text-channel-id</a> in the <a href="https://github.com/Hermitter/BDO-Boss-Alerts/blob/master/config.json" >config.json file<a/></b>
 
 <br/>
 
